@@ -1,0 +1,9 @@
+# Check a waypoint against the current octomap
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+# a list of view cones that were not visited yet
+sgeometry_msgs/Pose
+
+---
+#True if we want to explore it, false otherwise.
+std_msgs/Bool explore_waypoint  
